@@ -1,0 +1,9 @@
+.title {
+color: aqua;
+}
+.logo {
+    color: aqua;
+}
+.headers {
+    color:aqua
+}
