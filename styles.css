@@ -120,6 +120,25 @@ img {
 .image-subtext {
     display : flex;
     flex : 1 1 auto;
-    flex-direction: row;
     justify-content: space-around;
+}
+.story-1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.story-2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.story-3 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.story-4 {
+    display:flex;
+    flex-wrap: wrap;
+
 }
