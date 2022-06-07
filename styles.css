@@ -103,19 +103,20 @@ img {
     flex-wrap: wrap;
 }
 .social-1{
-    display: flexbox;
+    display: flex;
     flex: 1 1 auto;
-    
+    flex-direction: column;
 }
 .social-2{
-    display: flexbox;
+    display: flex;
     flex: 1 1 auto;
+    flex-direction: column;
     
 }
 .social-3{
-    display: flexbox;
+    display: flex;
     flex: 1 1 auto;
-    
+    flex-direction: column;
 }
 .image-subtext {
     display : flex;
@@ -141,4 +142,16 @@ img {
     display:flex;
     flex-wrap: wrap;
 
+}
+h4 {
+    display: flex;
+    justify-content:space-around;
+}
+.nametag {
+  margin-top: 0px;
+}
+.taglines{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
 }
