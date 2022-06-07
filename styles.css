@@ -92,7 +92,7 @@ img {
 }
 .testimonial {
     display: flex;
-    margin-top: 0px;
+    text-align: center;
 }
 .tagline {
     font-weight: bold;
