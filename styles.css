@@ -5,7 +5,7 @@
 .container{
     display: flex;
     background-color: lightblue;
-    border-bottom: 4px solid gray;
+    
     
 
 }
@@ -43,7 +43,7 @@ html, body {
 .container-2 {
     background-color: lightblue;
     display: flexbox;
-    border-bottom: 4px solid gray;
+   
 }
 .mid-head {
     margin-top: 0px;
@@ -61,21 +61,34 @@ html, body {
 }
 .container-3 {
     background-color:honeydew;
-    border-bottom: 4px solid gray;
     padding-bottom: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.scroll {
+    display: inline-block;
+
+}
+.container-3 .story-1 {
+    position: relative;
+
 }
 
 .images-column {
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    justify-content: space-around;
-
-    
+    justify-content: space-around; 
     }
-img {  
-    width: 125px;
-    height: 125px;
+    .images-column img {  
+        width:285px;
+        height:285px;
+        padding: 5px;
+
     
  }
 .stories-head {
@@ -123,25 +136,9 @@ img {
     flex : 1 1 auto;
     justify-content: space-around;
 }
-.story-1 {
+.story {
     display: flex;
-    flex-wrap: wrap;
-
-}
-.story-2 {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.story-3 {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.story-4 {
-    display:flex;
-    flex-wrap: wrap;
-
+    column-count: 6;
 }
 h4 {
     display: flex;
