@@ -4,15 +4,16 @@
     color:gainsboro;
 }
 @import "https://unpkg.com/open-props";
+
 .container{
     display: flex;
     background-color:rgb(87, 66, 66);
-    
+    padding-bottom: 20px;
     
 
 }
 .child-logo {
-    color:black;
+    color:rgba(15, 2, 3, 0.748);
     margin-top: 0px;
     margin-right: auto;
     font-size: 50px;
@@ -24,7 +25,6 @@
 .headers {
     display: flex;
     font-size: 8px;
-    color:gray;
     padding: 10px;
     text-align: center;
     justify-content: space-between;
@@ -41,6 +41,9 @@ html, body {
 }
 .header-items {
     justify-content: space-between;
+    color: rgba(50, 9, 9, 0.965);
+    font-size: large;
+
 }
 .container-2 {
     background-color:;
@@ -52,6 +55,7 @@ html, body {
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
+    color:rgba(15, 2, 3, 0.748);
 
 }
 .navbar {
@@ -59,7 +63,11 @@ html, body {
     flex: 1 1 auto;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    font-size: larger;
+}
+.stories-head {
+    font-family:monospace;
+   text-align: center;
 }
 .images-column {
     display: grid;
