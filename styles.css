@@ -1,24 +1,30 @@
 * {
     box-sizing: inherit;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:gainsboro;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4OMIm-S1JFcVOe9Ge-YbIUguIVg_anmTFxw&usqp=CAU');
+    background-blend-mode: lighten ;
+    background-attachment: fixed;
+    background-size: cover;
 }
 @import "https://unpkg.com/open-props";
-
+p {
+   color: black;
+}
+h1, h2, h3, h4, h5 {
+    color: #557A95;
+}
 .container{
     display: flex;
-    background-color:rgb(87, 66, 66);
     padding-bottom: 20px;
     
 
 }
 .child-logo {
-    color:rgba(15, 2, 3, 0.748);
     margin-top: 0px;
     margin-right: auto;
     font-size: 50px;
     margin-bottom: 10px;
-    
+    color: #557A95;
   
 
 }
@@ -36,26 +42,33 @@
 }
 html, body {
     margin:0;
-    padding:0;
-    background-color:dimgray
+    padding:0; 
+   
 }
+html {
+    animation: 
+    var(--animation-scale-down) reverse,
+    var(--animation-fade-out) reverse;
+  animation-timing-function: var(--ease-squish-5);
+  animation-duration: 0.5s;
+}
+
 .header-items {
     justify-content: space-between;
-    color: rgba(50, 9, 9, 0.965);
     font-size: large;
+    color: #7395AE;
 
 }
 .container-2 {
-    background-color:;
     display: flexbox;
-    background-color:rgb(87, 66, 66)
+    
 }
 .mid-head {
     margin-top: 0px;
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    color:rgba(15, 2, 3, 0.748);
+    color: #7395AE;
 
 }
 .navbar {
@@ -68,14 +81,18 @@ html, body {
 .stories-head {
     font-family:monospace;
    text-align: center;
+   word-wrap: normal;
 }
 .images-column {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 42%;
+    padding: 15px;
     gap: var(--size-3);
     overflow-x: auto;
     overscroll-behavior-inline: contain;
+    
+
+   
 }
 .images-column img {  
     width:285px;
@@ -87,7 +104,9 @@ html, body {
 .story {
     display: grid;
     padding: var(--size-3);
-    background: var(--surface-2)
+    background: var(--surface-2);
+    text-align: justify;
+    width: 285px;
 }
 .story > img {
     inline-size: 100%;
@@ -97,19 +116,21 @@ html, body {
     gap: var(--size-2);
     grid-template-rows:min-content
 }
+
 .section-3 {
     display: flex;
-    background-color:rgb(160, 111, 111);
     flex-direction: column;
-
-}
-
-.testimonial {
-    display: flex;
     text-align: center;
+    color: #557A95;
+    padding-bottom: 20px;
+
+
 }
+
 .tagline {
     font-weight: bold;
+    text-align: center;
+    color:#557A95;
 }
 .section-4 {
     display: flex;
@@ -146,3 +167,9 @@ h4 {
     flex: 1 1 auto;
     justify-content: center;
 } 
+h1 {
+    font-size:var(--size-7);
+    max-inline-size: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
