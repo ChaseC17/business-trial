@@ -180,21 +180,23 @@ h1 {
 }
 .podcast-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .iframe-container{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
+    justify-content: center;
   }
-  .iframe-container iframe{
+   .iframe-container iframe{
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
+    
   }
   .sidenav {
     height: 100%;
