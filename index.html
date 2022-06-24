@@ -7,14 +7,28 @@
            <title>Dagger Dialogue</title> 
         </head>
         <body>
-            <div class="container">
-                <h1 class="child-logo">
-                CCSports
-                </h1>
-                <div class="headers">
-                <h1 class="header-items">Chase</h1>
-                <h1 class="header-items">Chris</h1>
-                <h1 class="header-items">Ralph</h1>
+            <div class="top">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="../index.html">Home</a>
+                    <a href="./podcastpage.html">Podcast</a>
+                    <a href="./store.html">Shop</a>
+                    <a href="./stats.html">Stats</a>
+                    <a href="./news.html">News</a>
+                  </div>
+                  
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; CCSports</span>
+        
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+             
                 </div>
             </div>
             <div class="container-2">
