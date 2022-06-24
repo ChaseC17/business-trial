@@ -9,41 +9,55 @@
         <link rel="stylesheet" href="styles2.css">
     </head>
     <body>
-    <div class="header">
+    <div class="top">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">Home</a>
+            <a href="./podcastpage.html">Podcast</a>
+            <a href="./store.html">Shop</a>
+            <a href="./stats.html">Stats</a>
+            <a href="./news.html">News</a>
+          </div>
+          
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; CCSports</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
         <h1 class="story-head">
             Jordan Poole in Line for at least $100M Extension
         </h1>
-    </div> 
         <div class="body">
-            <div class="flex-item main-story">
+            <div class="flex-item podcast-clip">
+                <iframe style="border:9px outset black; padding 6px;" src="https://www.youtube.com/embed/8UDUlrWg1qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            <div class="main-story">
                 <p>&nbsp;Now that the Warriors have officially celebrated their fourth NBA championship in eight seasons, it’s time for the organization to focus on winning another.
                 And with a handful of Golden State stars who will become eligible for contract extensions in the coming weeks, majority owner Joe Lacob and general manager Bob Myers can expect a busy offseason in order to sustain the team’s success moving forward.
                 That reportedly means doing all they can to bring back each of their key players next season, league sources told Connor Letourneau of the San Francisco Chronicle. In that same vein, Letourneau reported that the Warriors are expected to discuss contract extensions with both Jordan Poole and Andrew Wiggins this summer.
                 </p>
                 <p>
                 &nbsp;Poole and Wiggins were two vital contributors to the Warriors’ 2022 NBA Finals run, so it’s no surprise the front office reportedly wants to keep them in the Bay.
-               
                 At only 22 years old, Poole proved invaluable as a starter and off the bench throughout the postseason. He just turned 23 and has the ability to contribute -- and lead -- for years to come.
-                
                 The future is bright, but Poole’s extension eligibility will expire before the start of next season, meaning the Warriors should act fast in order to avoid competition from other teams for the young talent in 2023.
                 </p>
                 <p>
                 &nbsp;Letourneau reported, citing a league source, that the Warriors’ offer for Poole likely needs to start at around four years, $100 million.
-                
                 And after Wiggins put up Finals MVP-worthy numbers against the Boston Celtics (if it weren’t for a man named Steph Curry), Letourneau reported the first-time All-Star will ask for “nothing less than the max.”
-                
                 “Giving [Wiggins] three or four more years beyond next season at around $37 million annually would have huge luxury-tax implications for the Warriors,” Letourneau wrote. “It might behoove Golden State to see how the next 12 or so months unfold before they sign Wiggins to another contract. Perhaps Wiggins struggles to build off his big postseason, or perhaps Jonathan Kuminga shows that he is ready for a starting job.
-                
                 “But the fact that a max contract extension is even a possibility speaks to how much the Warriors value Wiggins.”
-                 
                 Along with Poole and Wiggins, both Draymond Green and Klay Thompson will become eligible for contract extensions this summer.
 </p>
 
             </div>
-            <div class="flex-item podcast-clip">
-                <iframe style="border:9px outset black; padding 6px;" width="560" height="315" src="https://www.youtube.com/embed/8UDUlrWg1qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            </div>
+            
             </div>
             <div class="story-picture">
                 <img src="https://bluemanhoop.com/wp-content/uploads/imagn-images/2017/07/17088691.jpeg">
